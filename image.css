@@ -1,0 +1,90 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, h1, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body and container styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header styles */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Text input and button styles */
+#textInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#generateButton {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#generateButton:hover {
+    background-color: #0056b3;
+}
+
+/* Image container styles */
+#imageContainer {
+    margin-top: 20px;
+}
+
+/* Image styles */
+#generatedImage {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the download link to look like a button */
+#downloadLink {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074D9;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Add a hover effect */
+#downloadLink:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
