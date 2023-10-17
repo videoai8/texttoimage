@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const textArray = inputText.split("\n");
 
         // Replace with your Hugging Face API endpoint
-        const apiUrl = "https://api-inference.huggingface.co/models/Melonie/text_to_image_finetuned";
+        const apiUrl = "https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5";
 
         try {
             // Generate images with variations of the input text
