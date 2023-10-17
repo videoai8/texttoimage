@@ -1,0 +1,5 @@
+- name: secret
+  env:
+    HUGGINGFACE_API_KEY: ${{ secrets.HUGGINGFACE_API_KEY }}
+    FACEBOOK_APP_ID: ${{ secrets.FACEBOOK_APP_ID }}
+
